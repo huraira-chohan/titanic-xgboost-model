@@ -1,6 +1,7 @@
 # Titanic-xgboost-model
 Titanic Survival Prediction using XGBoost and Streamlit . A machine learning project that predicts whether a passenger survived the Titanic disaster. Includes data cleaning, feature engineering, XGBoost model training, and a deployable web app using Streamlit.
 
+Here is the link to the streamlit app : 'https://titanic-xgboost-model-nduk9pfhexuftdzbgiwg4l.streamlit.app/'
 
 Key steps included:
 - Data cleaning and preprocessing
