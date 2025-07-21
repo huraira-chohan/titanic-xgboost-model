@@ -4,6 +4,11 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+try:
+    model = joblib.load("xgb_titanic_model.pkl")
+except FileNotFoundError:
+    st.error("Error: The model file 'xgb_titanic_model.pkl' was not found.")
+    st.error("Please ensure the model file is in the same directory as 'app.py'.")
 # Load the trained model
 model = joblib.load("xgb_titanic_model.pkl")
 
