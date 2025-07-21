@@ -74,6 +74,9 @@ accuracy = accuracy_score(y_test,y_pred)
 
 print(f"Accuracy Score is {accuracy}")
 
+import joblib
+joblib.dump(model, 'xgb_titanic_model.pkl')
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 
